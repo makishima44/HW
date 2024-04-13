@@ -25,9 +25,9 @@
 }
 
 .button:hover {
-  border: 5px solid red;
+  border: 1px solid black;
 }
 .button:active {
-  color: blueviolet;
-  background-color: white;
+  color: rgb(239, 222, 241);
+  border: 3px solid rgb(239, 222, 241);
 }
