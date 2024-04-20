@@ -1,35 +1,48 @@
 .button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
 }
 
 .disabled {
+  background-color: cornflowerblue;
+  opacity: 0.5;
 }
 
 .secondary {
+  background-color: white;
+  color: blueviolet;
 }
 
 .default {
+  background-color: darkblue;
 }
 
 .red {
+  background-color: darkred;
 }
 
 .default:hover {
+  background-color: blueviolet;
 }
 
 .red:hover {
+  background-color: red;
 }
 
 .secondary:hover {
 }
 
-
 .default:active {
+  background-color: darkblue;
 }
 
 .secondary:active {
 }
 
 .red:active {
+  background-color: darkred;
 }
 
 .button:disabled {
