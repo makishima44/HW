@@ -1,9 +1,9 @@
 .select {
+  width: 100px;
 }
 
 .select:focus {
 }
-
 
 .option:hover {
 }

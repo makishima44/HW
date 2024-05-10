@@ -4,11 +4,17 @@
 .radio::before {
 }
 
-
 .radio:checked::before {
 }
 
 .label {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.label:first-child {
+  padding-top: 0;
 }
 
 .options {
